@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+# The vault contains private inventory, access metadata, backups, artifacts,
+# and local firmware candidates. It is never source control content.
+vault/
+
+# Local Proxmark3 worktrees are third-party GPLv3 source trees. Use the
+# documented pinned upstream version or a submodule. Do not add a worktree.
+proxmark3/
+proxmark3-v*/
+
+# Private device scripts and local environment files can contain credentials.
+scripts/private/
+.env
+.env.*
